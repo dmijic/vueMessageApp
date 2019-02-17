@@ -20,14 +20,14 @@ body {
 }
 
 .header {
-  width: 300px;
+  width: 100%;
   height: 100px;
   background-color: aquamarine;
   padding: 5px;
 }
 
 .white-div {
-  width: 300px;
+  width: 100%;
   height: 100px;
   background-color: white;
   padding: 5px;
@@ -35,7 +35,7 @@ body {
 }
 
 .blue-div {
-  width: 300px;
+  width: 100%;
   height: 100px;
   background-color: blue;
   color: white;
@@ -44,6 +44,10 @@ body {
 
 .preview {
   float: right;
+}
+
+.centered-wrapper {
+  margin: 0 auto;
 }
 
 .nav-bar {

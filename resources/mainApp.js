@@ -10,7 +10,7 @@ new Vue({
     elements: [
       '<div class="header"> This is header</div>',
       '<div class="white-div">This is white div</div>',
-      '<div class="blue-div">This is blue div</div>'
+      '<div class="blue-div">This is blue div</div>',
     ],
     message: []
   },
