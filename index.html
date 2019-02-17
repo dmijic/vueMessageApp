@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VueTutorial</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+<body>
+
+        <div class="nav-bar"></div>
+<div class="wrapper">
+        <div id="app">
+
+          <div class="half menu">
+
+            <select v-model="elementId">
+                <option v-for="option in options" v-bind:value="option.value">
+                  {{ option.text }}
+                </option>
+              </select>
+              <button @click="createElement(elements[elementId])">Add to message</button>
+              <br><br>
+              <div v-html="elements[elementId]"></div>
+
+            </div>
+
+              <div class="preview half">
+              <div v-for="element in message" v-html="element"></div>
+            </div>
+           
+        
+            
+          </div>
+          
+        </div> 
+        
+         <script src="vue.js"></script>
+         <script src="main.js"></script>    
+</body>
+</html>

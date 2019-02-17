@@ -1,0 +1,53 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color:#282828;
+  margin: 0px;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.half {
+  width: 49%;
+  display: inline-block;
+  height: 80vh;
+}
+
+.menu {
+  border-right: 2px solid #eaeaea;
+}
+
+.header {
+  width: 300px;
+  height: 100px;
+  background-color: aquamarine;
+  padding: 5px;
+}
+
+.white-div {
+  width: 300px;
+  height: 100px;
+  background-color: white;
+  padding: 5px;
+  border: 2px solid #eaeaea;
+}
+
+.blue-div {
+  width: 300px;
+  height: 100px;
+  background-color: blue;
+  color: white;
+  padding: 5px;
+}
+
+.preview {
+  float: right;
+}
+
+.nav-bar {
+  background: linear-gradient(-90deg, #84CF6A, #16C0B0);
+  height: 60px;
+  margin-bottom: 15px;
+}
