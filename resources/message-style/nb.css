@@ -1,0 +1,73 @@
+            .message__header {
+                padding: 170px 30px 30px 30px!important;
+                background-position: top!important;
+                background-size: cover!important;
+            }
+
+            h3{
+                color: white;
+                margin: 15px 0;
+                font-weight: initial;
+            }
+
+            .h2 {
+                display: block;
+                font-size: 1.2em;
+                margin-block-start: 0.83em;
+                margin-block-end: 0.83em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                font-weight: bold;
+            }
+
+            .section__light-blue--background {
+                background-color:#bce4fa; 
+                padding: 20px;
+            }
+
+            .section__light-blue--background p, h2 {
+                color: rgb(0, 91, 148);
+            }
+
+            .block__right {
+                float: right;
+                width: 180px;
+                padding: 20px; 
+            }
+            .block__right img {
+                width: 140px;
+                height: 140px;
+            }
+
+            .block__image--cropper {
+                width: 125px;
+                height: 125px;
+                position: relative;
+            }
+
+            .block--image {
+                display: block;
+                margin: 0 auto;
+                height: 100%;
+                width: auto;
+                border: 0px;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                border-radius: 50%;
+            }
+
+            .message__col--blue {
+                padding: 20px 0!important;
+            }
+
+            .signature__section {
+                padding: 40px 15px;
+            }
+
+            .img__rounded {
+                margin: 0 auto;
+                border: 0px;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                border-radius: 50%;
+              }
